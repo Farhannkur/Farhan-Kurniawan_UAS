@@ -3,6 +3,8 @@ Farhan Kurniawan Roni
 121140021 
 Kelas RA
 
+ini adalah web sederhan tentang pendaftaran lomba membaca puisi dikampus itera.
+
 Bagian 1: Client-side Programming (Bobot: 30%)
 membuat form nama,prodi,jenis kelamin,tanggal pendaftaran dan alamat
 membuat javascript untuk menghandle kesalahan nama,kesalahan belum menginputkan data dan submit
@@ -21,3 +23,19 @@ Bagian 4: State Management (Bobot: 20%)
 Bagian Bonus: Hosting Aplikasi Web (Bobot: 20%)
 
 Dibagian hosting pertanyaan saya upload di file github ini.
+
+Penggunaanya
+
+1. Aktifkan web server dan MySQL.
+2. Import query ke dalam basis data MySQL.
+3. Sesuaikan koneksi PHP di index.php.
+4. Masukkan database dan kode PHP ke localhost.
+5. Buka browser dan ketikkan alamat localhost dengan nama folder yang Anda buat.
+6. Contoh akses buka http://localhost/UAS
+
+  Ini koneksi database
+  
+   $servername = "localhost";
+    $username = "root";
+    $password = "";
+    $dbname = "admin";
